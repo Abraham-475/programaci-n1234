@@ -1,3 +1,5 @@
+package Voletin1;
+
 import java.util.Scanner;
 
 public class Ejercicio1 {
