@@ -69,8 +69,8 @@ public class MiEntradaSalida {
         while (salir == false) {
             System.out.printf("%s: ", mensaje);
             char caracter = sc.next().toUpperCase().charAt(0);
-            if (caracter == 'S') {valor = "Verdadero"; salir = true;}
-            if (caracter == 'N') {valor = "Falso"; salir = true;}
+            if (caracter == 'S') {valor = "S"; salir = true;}
+            if (caracter == 'N') {valor = "N"; salir = true;}
         }
         return valor;
     }
