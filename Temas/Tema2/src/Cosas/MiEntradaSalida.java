@@ -75,5 +75,25 @@ public class MiEntradaSalida {
         return valor;
     }
 
+    // ORDENAR INT ARRAY CON UN METODO BURBUJA
+    public static int[] ordenarArray(int[] array) {
+
+        // ORDENAR ARRAY CON METODO BURBUJA
+        for (int i = 0; i < array.length - 1; i++) {
+
+            for (int j = 0; j < array.length - 1 - i; j++) {
+
+                if (array[j] > array[j + 1]) {
+
+                    int auxiliar = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = auxiliar;
+
+                }
+            }
+        }
+
+        return array;
+    }
 
 }
