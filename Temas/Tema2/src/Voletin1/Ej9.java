@@ -20,9 +20,6 @@ public class Ej9 {
 
         //Funcion reverse
         String reverse = MiEntradaSalida.leerVerdaderoFalso("Quieres que este ordenado normal S o alreves N");
-<<<<<<< HEAD
-        //TERMINARLUEGOOOOOOOOOOOOOO
-=======
         if (reverse == "S") {
             //OREDENAR MENOR A MAYOR
             array = MiEntradaSalida.ordenarArray(array);
@@ -36,7 +33,6 @@ public class Ej9 {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
->>>>>>> a36f2d0 (Ej 14 termnao)
 
         //LLAMAR A LA CLASE
         int encontrado = crearArray(posision, array);

@@ -96,8 +96,6 @@ public class MiEntradaSalida {
         return array;
     }
 
-<<<<<<< HEAD
-=======
     // ORDENAR INT ARRAY de forma inversa CON UN METODO BURBUJA
     public static int[] ordenarArrayAlreves(int[] array) {
 
@@ -119,7 +117,6 @@ public class MiEntradaSalida {
         return array;
     }
 
->>>>>>> a36f2d0 (Ej 14 termnao)
     // LEER OPCIONES NUMEROS (1, 2, 3, 4, no el 0)
     public static int leerOpcionesNumeros(String mensaje, int opciones) {
         Scanner sc = new Scanner(System.in);
